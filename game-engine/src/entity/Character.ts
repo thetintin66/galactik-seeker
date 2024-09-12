@@ -1,4 +1,4 @@
-import { Options } from "../interface/EntityInterface";
+import { Options } from "../interface/Interface";
 import Entity from "./Entity";
 
 class Character extends Entity{

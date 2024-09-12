@@ -10,4 +10,8 @@ interface Coordinate {
     y: number;
 }
 
-export { Options, Coordinate }
+interface Listener {
+    (arg: any): string;
+}
+
+export { Options, Coordinate, Listener }

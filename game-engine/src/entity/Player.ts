@@ -1,6 +1,6 @@
 import Character from "./Character";
 
-import { Options, Coordinate } from "../interface/EntityInterface";
+import { Options, Coordinate } from "../interface/Interface";
 
 class Player extends Character{
     position: Coordinate;

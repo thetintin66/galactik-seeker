@@ -1,4 +1,4 @@
-import { Options } from "../interface/EntityInterface";
+import { Options } from "../interface/Interface";
 
 var ID_COUNTER = 0;
 
