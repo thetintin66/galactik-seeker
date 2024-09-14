@@ -1,10 +1,12 @@
 import express from 'express';
 import expressWs from 'express-ws';
 import protobuf from 'protobufjs';
+import EventDispatcher from 'game-engine/src/event/EventDispatcher';
 
 class Server {
     app: express.Application;
     wsApp: expressWs.Application;
+    // emitter: ;
 
     constructor() {
         this.app = express();

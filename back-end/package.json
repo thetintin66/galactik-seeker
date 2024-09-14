@@ -1,0 +1,10 @@
+{
+    "name": "back-end",
+    "private": true,
+    "types": "dist/main.d.ts",
+    "devDependencies": {
+      "typescript": "^5.6.2",
+      "game-engine": "workspace:*"
+    }
+  }
+  
