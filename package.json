@@ -12,6 +12,7 @@
         "start:frontend": "node dist/front-end/index.js"
     },
     "dependencies": {
+        "@types/protobufjs": "^6.0.0",
         "express": "^4.21.0",
         "express-ws": "^5.0.2",
         "protobufjs": "^7.4.0"

@@ -2,7 +2,8 @@ interface Options {
     position: Coordinate,
     max_hp: number,
     hp: number,
-    speed: number
+    speed: number,
+    body: Matter.Body
 }
 
 interface Coordinate {

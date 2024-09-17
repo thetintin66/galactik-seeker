@@ -1,8 +1,15 @@
 {
   "extends": "../tsconfig.base.json",
   "compilerOptions": {
+    "composite": true,  // Nécessaire pour les références de projet
     "rootDir": "./src",
-    "outDir": "../dist/game-engine"
+    "outDir": "dist/game-engine",
+    "declaration": true,  // Génère les fichiers de déclaration (.d.ts) pour permettre aux autres projets de les utiliser
+    "declarationMap": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "target": "es6",
+    "module": "commonjs"
   },
   "include": ["src/**/*"]
 }
